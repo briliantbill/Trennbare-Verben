@@ -90,7 +90,7 @@ TOPIK.praeteritum = {
       judul: "Trik: ich = er/es/sie",
       isi: [
         "Bentuk **ich** dan **er/es/sie** selalu **sama persis** — tanpa akhiran apa pun.",
-        { kolom: ["Subjek", "haben", "sein", "können"],
+        { kolom: ["Subjek", "haben (lampau)", "sein (lampau)", "können (sekarang)"],
           tabel: [
             { tanda: "sama", isi: ["ich",       "*hatte*",       "*war*",       "*kann*"] },
             [                     "du",         "*hatte**st***", "*war**st***", "*kann**st***"],
@@ -100,7 +100,7 @@ TOPIK.praeteritum = {
             [                     "sie/Sie",    "*hatte**n***",  "*war**en***", "*könn**en***"]
           ] },
         { catatan: "Pola ini sama dengan **Modalverben** yang sudah kamu pelajari: ich *kann* = er *kann*, ich *will* = er *will*, ich *muss* = er *muss*.", jenis: "hubung", bertahap: true },
-        { catatan: "Akhiran yang perlu diingat hanya: du **-st** · wir **-en** · ihr **-t** · sie/Sie **-en**", jenis: "penting", bertahap: true }
+        { catatan: "Akhiran yang perlu diingat hanya: du **-st** · wir **-(e)n** · ihr **-t** · sie/Sie **-(e)n**. hatte sudah berakhiran e → cukup + n: hatte**n**. war → + en: war**en**.", jenis: "penting", bertahap: true }
       ]
     },
 
@@ -235,7 +235,7 @@ TOPIK.praeteritum = {
       jawaban: "hatten",
       kalimat: "Wir *hatten* Hunger.",
       arti: "Kami (tadi) lapar.",
-      penjelasan: "Subjek **wir** → akhiran **-en**. hatte + n = **hatten**.",
+      penjelasan: "Subjek **wir** → akhiran **-(e)n**. hatte sudah berakhiran e, jadi cukup + n = **hatten**.",
       jikaMenjawab: {
         "hatte": "Untuk **wir** ada akhiran: hatte**n**.",
         "haben": "haben adalah bentuk **sekarang**. Lampaunya: **hatten**.",

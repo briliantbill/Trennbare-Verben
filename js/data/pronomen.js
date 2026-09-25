@@ -89,7 +89,7 @@ TOPIK.pronomen = {
     {
       judul: "Paling penting: er → {ihn}",
       isi: [
-        "Kamu sudah tahu aturan ini: di Akkusativ **hanya maskulin yang berubah**. Sekarang pronomennya juga ikut.",
+        "Kamu sudah tahu aturan ini untuk artikel: di Akkusativ **hanya maskulin yang berubah**. Untuk **er / es / sie** aturannya sama: hanya **er** yang berubah → {ihn}.",
         { kolom: ["Nominativ (maskulin)", "Akkusativ"],
           tabel: [
             ["der Hund",  "de**n** Hund"],
@@ -158,7 +158,7 @@ TOPIK.pronomen = {
     {
       tipe: "isi",
       perintah: "Isi pronomen Akkusativ yang tepat.",
-      petunjuk: "du",
+      petunjuk: "du → ?",
       soal: "Ich *liebe* ___.",
       jawaban: "dich",
       kalimat: "Ich *liebe* {dich}.",
@@ -187,7 +187,7 @@ TOPIK.pronomen = {
     {
       tipe: "isi",
       perintah: "Isi pronomen Akkusativ yang tepat.",
-      petunjuk: "ich",
+      petunjuk: "ich → ?",
       soal: "*Holst* du ___ [ab]?",
       jawaban: "mich",
       kalimat: "*Holst* du {mich} [ab]?",
@@ -201,7 +201,7 @@ TOPIK.pronomen = {
     {
       tipe: "pilih",
       perintah: "Pilih pronomen yang tepat.",
-      petunjuk: "der Kaffee",
+      petunjuk: "der Kaffee → ?",
       soal: "Der Kaffee ist super. Ich *trinke* ___ gern.",
       pilihan: ["ihn", "es", "sie"],
       jawaban: "ihn",
@@ -230,7 +230,7 @@ TOPIK.pronomen = {
     {
       tipe: "isi",
       perintah: "Isi pronomen Akkusativ yang tepat.",
-      petunjuk: "ihr",
+      petunjuk: "ihr → ?",
       soal: "Wir *besuchen* ___ morgen.",
       jawaban: "euch",
       kalimat: "Wir *besuchen* {euch} morgen.",
@@ -258,7 +258,7 @@ TOPIK.pronomen = {
     {
       tipe: "pilih",
       perintah: "Pilih pronomen yang tepat.",
-      petunjuk: "die Brille",
+      petunjuk: "die Brille → ?",
       soal: "Wo ist die Brille? Ich *suche* ___.",
       pilihan: ["sie", "ihn", "es"],
       jawaban: "sie",
@@ -273,7 +273,7 @@ TOPIK.pronomen = {
     {
       tipe: "isi",
       perintah: "Isi pronomen Akkusativ yang tepat.",
-      petunjuk: "du",
+      petunjuk: "du → ?",
       soal: "Ich *mache* am Samstag eine Party. Ich *lade* ___ [ein].",
       jawaban: "dich",
       kalimat: "Ich *mache* am Samstag eine Party. Ich *lade* {dich} [ein].",
@@ -301,7 +301,7 @@ TOPIK.pronomen = {
     {
       tipe: "isi",
       perintah: "Isi pronomen Akkusativ yang tepat.",
-      petunjuk: "wir",
+      petunjuk: "wir → ?",
       soal: "*Ruft* ihr ___ heute [an]?",
       jawaban: "uns",
       kalimat: "*Ruft* ihr {uns} heute [an]?",
@@ -329,7 +329,7 @@ TOPIK.pronomen = {
     {
       tipe: "isi",
       perintah: "Isi pronomen Akkusativ yang tepat.",
-      petunjuk: "Sie (sopan)",
+      petunjuk: "Sie (sopan) → ?",
       soal: "Frau Müller, ich *verstehe* ___ nicht.",
       jawaban: "Sie",
       kalimat: "Frau Müller, ich *verstehe* {Sie} nicht.",
@@ -343,7 +343,7 @@ TOPIK.pronomen = {
     {
       tipe: "pilih",
       perintah: "Pilih pronomen yang tepat.",
-      petunjuk: "das Buch",
+      petunjuk: "das Buch → ?",
       soal: "Das Buch ist spannend. Ich *lese* ___ heute.",
       pilihan: ["es", "ihn", "sie"],
       jawaban: "es",
@@ -372,7 +372,7 @@ TOPIK.pronomen = {
     {
       tipe: "pilih",
       perintah: "Pilih pronomen yang tepat.",
-      petunjuk: "er",
+      petunjuk: "er → ?",
       soal: "Mein Bruder wohnt in Berlin. Ich *besuche* ___ im Mai.",
       pilihan: ["ihn", "er", "sein"],
       jawaban: "ihn",

@@ -51,7 +51,7 @@ TOPIK.trennbare = {
       isi: [
         "Beberapa kata kerja punya **awalan** yang bisa **lepas**. Di dalam kalimat, awalan itu pindah ke **AKHIR** kalimat.",
         { pisah: "*[ab]holen*", keterangan: "infinitiv · menjemput", kalimat: "Ich *hole* {dich} [ab].", id: "Aku menjemputmu." },
-        { catatan: "Kata kerjanya (tanpa awalan) tetap di **posisi 2**. Awalannya pindah ke **akhir**.", jenis: "penting", bertahap: true }
+        { catatan: "Di kalimat biasa, kata kerjanya (tanpa awalan) tetap di **posisi 2**. Awalannya pindah ke **akhir**.", jenis: "penting", bertahap: true }
       ]
     },
 
@@ -160,7 +160,7 @@ TOPIK.trennbare = {
     {
       judul: "für + Akkusativ",
       isi: [
-        "Setelah **für** selalu **Akkusativ**. Hanya maskulin yang berubah — aturan yang sama seperti biasa.",
+        "Setelah **für** selalu **Akkusativ**. Untuk artikel dan er/es/sie: hanya **maskulin** yang berubah — aturan yang sama seperti biasa.",
         { kolom: ["", "Artikel", "Pronomen"],
           tabel: [
             { tanda: "biru", isi: ["maskulin (der)", "für de**n** Hund", "für {ihn}"] },
@@ -168,7 +168,7 @@ TOPIK.trennbare = {
             ["neutral (das)", "für das Kind",   "für {es}"],
             ["plural (die)",  "für die Kinder", "für {sie}"]
           ] },
-        { catatan: "Orang juga: für {mich} · für {dich} · für {ihn} · für {sie} · für {uns} · für {euch} · für {Sie}", jenis: "info", bertahap: true }
+        { catatan: "Semua pronomen sesudah für juga Akkusativ: für {mich} · für {dich} · für {ihn} · für {sie} · für {uns} · für {euch} · für {Sie}", jenis: "info", bertahap: true }
       ]
     },
 
@@ -447,7 +447,7 @@ TOPIK.trennbare = {
     {
       tipe: "isi",
       perintah: "Isi artikel yang tepat.",
-      petunjuk: "der Hund",
+      petunjuk: "der Hund → ?",
       soal: "Das Wasser ist für ___ Hund.",
       jawaban: "den",
       kalimat: "Das Wasser *ist* für de**n** Hund.",
@@ -461,7 +461,7 @@ TOPIK.trennbare = {
     {
       tipe: "isi",
       perintah: "Isi pronomen yang tepat.",
-      petunjuk: "du",
+      petunjuk: "du → ?",
       soal: "Das Geschenk ist für ___!",
       jawaban: "dich",
       kalimat: "Das Geschenk *ist* für {dich}!",
@@ -475,7 +475,7 @@ TOPIK.trennbare = {
     {
       tipe: "pilih",
       perintah: "Pilih bentuk yang tepat.",
-      petunjuk: "meine Mutter",
+      petunjuk: "meine Mutter → ?",
       soal: "Die Blumen sind für ___ Mutter.",
       pilihan: ["meine", "meinen", "meiner"],
       jawaban: "meine",
@@ -490,7 +490,7 @@ TOPIK.trennbare = {
     {
       tipe: "isi",
       perintah: "Isi bentuk yang tepat.",
-      petunjuk: "mein Vater",
+      petunjuk: "mein Vater → ?",
       soal: "Ich *kaufe* einen Kuchen für ___ Vater.",
       jawaban: "meinen",
       kalimat: "Ich *kaufe* einen Kuchen für mein**en** Vater.",
@@ -532,7 +532,7 @@ TOPIK.trennbare = {
     {
       tipe: "isi",
       perintah: "Isi pronomen yang tepat.",
-      petunjuk: "wir",
+      petunjuk: "wir → ?",
       soal: "Ist die Pizza für ___?",
       jawaban: "uns",
       kalimat: "*Ist* die Pizza für {uns}?",

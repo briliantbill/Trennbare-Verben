@@ -149,7 +149,7 @@ function renderIsiBlok(blok, mode) {
   return "";
 }
 
-/* Rumus: { rumus: ["am", "zwölf**ten**", "Mai"], label: ["selalu am", "bilangan tingkat", "bulan"] }
+/* Rumus: { rumus: ["am", "zwölf**ten**", "Mai"], label: ["am", "bilangan tingkat", "bulan"] }
    Kotak-kotak dihubungkan dengan tanda + (atau pemisah lain: pemisah: "…").
    klammer: true → garis lengkung dari kata kerja ke awalan/infinitiv di kotak terakhir. */
 function renderRumus(blok, langkah) {
@@ -662,7 +662,7 @@ function htmlBeranda() {
     <section class="beranda-hero">
       <p class="kicker">Bahasa Jerman A1 · Teil 2</p>
       <h1>Grammar yang muncul bersamaan di kalimat nyata</h1>
-      <p class="lead">Tanggal, masa lampau, pronomen, dan kata kerja yang bisa terpisah — empat topik, satu kalimat:</p>
+      <p class="lead">Tanggal, masa lampau, pronomen, dan kata kerja yang bisa terpisah — empat topik yang sering muncul bersamaan, misalnya:</p>
       <div class="kalimat-contoh">
         <p class="de" lang="de">${htmlKlammer("Ich *hole* {dich} am !!ersten!! Mai [ab].")}</p>
         <p class="id">Aku menjemputmu pada tanggal satu Mei.</p>
@@ -675,9 +675,9 @@ function htmlBeranda() {
     <h2 class="judul-bagian">Kode warna</h2>
     <div class="kartu">
       <div class="legenda">
-        ${htmlLegenda("*hole* · *kann*", "Kata kerja · Modalverb", "Oranye: kata kerja yang dikonjugasi (hole) dan Modalverb (kann).")}
+        ${htmlLegenda("*hole* · *kann*", "Kata kerja · Modalverb", "Oranye: kata kerja (hole, abholen) dan Modalverb (kann).")}
         ${htmlLegenda("[ab]", "Awalan trennbar", "Kotak oranye: awalan ini bisa lepas dan pindah ke akhir kalimat.")}
-        ${htmlLegenda("{dich}", "Pronomen Akkusativ", "Biru: kata ganti sebagai objek — mich, dich, ihn, uns, euch.")}
+        ${htmlLegenda("{dich}", "Pronomen Akkusativ", "Biru: kata ganti sebagai objek — mich, dich, ihn, es, sie, uns, euch, Sie.")}
         ${htmlLegenda("!!ersten!!", "Bentuk tak beraturan", "Merah artinya hati-hati: bentuk ini tidak ikut aturan.")}
       </div>
     </div>

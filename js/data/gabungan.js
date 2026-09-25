@@ -30,7 +30,7 @@ TOPIK.gabungan = {
   ikon: "🧩",
   judul: "Latihan Gabungan",
   judulPendek: "Gabungan",
-  subjudul: "Semua topik dalam satu kalimat",
+  subjudul: "Beberapa topik dalam satu kalimat",
   ringkas: "Tanggal, Präteritum, pronomen, dan trennbare Verben — dicampur seperti di percakapan sungguhan. Label di atas setiap soal menunjukkan topik mana saja yang dipakai.",
 
   /* ==============================================================

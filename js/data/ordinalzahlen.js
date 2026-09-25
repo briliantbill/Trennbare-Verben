@@ -61,15 +61,16 @@ TOPIK.ordinalzahlen = {
         { contoh: [
           { de: "Wann hast du Geburtstag? — Am zwölften Mai.", id: "Kapan kamu ulang tahun? — Tanggal dua belas Mei." }
         ] },
-        { rumus: ["am", "zwölf**ten**", "Mai"], label: ["selalu am", "bilangan tingkat", "bulan"] },
-        { catatan: "Pertanyaannya **Wann?** (kapan?), jawabannya selalu dimulai dengan **am**.", jenis: "penting", bertahap: true }
+        { rumus: ["am", "zwölf**ten**", "Mai"], label: ["am", "bilangan tingkat", "bulan"] },
+        { catatan: "**Wann?** (kapan?) → kalau jawabannya **tanggal**, dimulai dengan **am**: Am zwölften Mai.", jenis: "penting", bertahap: true },
+        { catatan: "Akhiran **-ten / -sten** di topik ini adalah bentuk sesudah **am** (am erste**n**, am zwanzigste**n**). Bentuk lain (mis. „der erste Mai“) dipelajari nanti.", jenis: "info", hanya: "belajar" }
       ]
     },
 
     {
       judul: "1 – 19: angka + ten",
       isi: [
-        { aturan: ["Angka **1 sampai 19** → tambahkan akhiran **-ten**"] },
+        { aturan: ["Angka **1 sampai 19** → tambahkan akhiran **-ten** (kecuali 1, 3, 7, 8 — lihat bagian berikutnya)"] },
         { kolom: ["Angka", "Bilangan", "Tanggal"],
           tabel: [
             ["2.",  "zwei",     "am zwei**ten**"],
