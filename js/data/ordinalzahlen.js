@@ -17,7 +17,7 @@
      — biasanya koma yang hilang di antara dua { … }.
 
    KODE WARNA (bisa dipakai di semua teks)
-     *hole*       oranye         kata kerja / Modalverb
+     *hole* *kann*  oranye         kata kerja (hole) · Modalverb (kann)
      [ab]         kotak oranye   awalan trennbar
      {dich}       biru           pronomen Akkusativ
      !!ersten!!   merah          bentuk tak beraturan

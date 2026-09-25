@@ -55,7 +55,7 @@ function esc(teks) {
      !!ersten!!    → merah   (bentuk tak beraturan)
      [ab]          → kotak oranye (awalan trennbar)
      {dich}        → biru    (pronomen Akkusativ)
-     *hole*        → oranye  (kata kerja / Modalverb)
+     *hole* *kann* → oranye  (kata kerja / Modalverb)
      ~~einten~~    → dicoret (bentuk yang salah)
      ___           → titik-titik
      ->            → panah →
@@ -675,7 +675,7 @@ function htmlBeranda() {
     <h2 class="judul-bagian">Kode warna</h2>
     <div class="kartu">
       <div class="legenda">
-        ${htmlLegenda("*hole*", "Kata kerja / Modalverb", "Kata kerja yang dikonjugasi dan Modalverb selalu oranye.")}
+        ${htmlLegenda("*hole* · *kann*", "Kata kerja · Modalverb", "Oranye: kata kerja yang dikonjugasi (hole) dan Modalverb (kann).")}
         ${htmlLegenda("[ab]", "Awalan trennbar", "Kotak oranye: awalan ini bisa lepas dan pindah ke akhir kalimat.")}
         ${htmlLegenda("{dich}", "Pronomen Akkusativ", "Biru: kata ganti sebagai objek — mich, dich, ihn, uns, euch.")}
         ${htmlLegenda("!!ersten!!", "Bentuk tak beraturan", "Merah artinya hati-hati: bentuk ini tidak ikut aturan.")}
@@ -689,12 +689,6 @@ function htmlBeranda() {
         <li><span class="angka">2</span><div><b>Kerjakan latihannya</b><span>Setiap jawaban langsung dicek. Kalau salah, ada penjelasan langkah demi langkah.</span></div></li>
         <li><span class="angka">3</span><div><b>Ulangi yang salah</b><span>Sampai polanya terasa otomatis. Tantangan terakhir: Latihan Gabungan.</span></div></li>
       </ol>
-    </div>
-    <div class="kartu">
-      <div class="b-catatan tips">
-        <span class="ikon" aria-hidden="true">🖥️</span>
-        <div><strong>Untuk guru:</strong> klik <strong>Presentasi</strong> di pojok kanan atas untuk tampilan share screen — huruf sangat besar, satu konsep per layar.</div>
-      </div>
     </div>`;
 }
 

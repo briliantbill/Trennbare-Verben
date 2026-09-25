@@ -8,7 +8,7 @@
    js/data/ordinalzahlen.js dan README.md.
 
    KODE WARNA
-     *sehe*       oranye         kata kerja / Modalverb
+     *sehe* *kann*  oranye         kata kerja (sehe) · Modalverb (kann)
      [ab]         kotak oranye   awalan trennbar
      {ihn}        biru           pronomen Akkusativ
      !!ersten!!   merah          bentuk tak beraturan

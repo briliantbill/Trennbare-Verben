@@ -193,7 +193,7 @@ function htmlPilihTopik() {
       </button>`;
   }).join("");
   const legenda = [
-    ["*hole*", "kata kerja / Modalverb"],
+    ["*hole* · *kann*", "kata kerja · Modalverb"],
     ["[ab]", "awalan trennbar"],
     ["{dich}", "pronomen Akkusativ"],
     ["!!ersten!!", "tak beraturan"]

@@ -16,7 +16,7 @@
          ordinalzahlen · praeteritum · pronomen · trennbare
 
    KODE WARNA
-     *hole*       oranye         kata kerja / Modalverb
+     *hole* *kann*  oranye         kata kerja (hole) · Modalverb (kann)
      [ab]         kotak oranye   awalan trennbar
      {dich}       biru           pronomen Akkusativ
      !!ersten!!   merah          bentuk tak beraturan

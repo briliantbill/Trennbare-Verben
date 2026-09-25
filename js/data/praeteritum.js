@@ -8,7 +8,7 @@
    js/data/ordinalzahlen.js dan README.md.
 
    KODE WARNA
-     *hatte*      oranye         kata kerja / Modalverb
+     *hatte* *kann*  oranye         kata kerja (hatte) · Modalverb (kann)
      *hatte**st***  kata kerja oranye dengan akhiran tebal (hatte + st)
      [ab]         kotak oranye   awalan trennbar
      {dich}       biru           pronomen Akkusativ

@@ -8,7 +8,7 @@
    js/data/ordinalzahlen.js dan README.md.
 
    KODE WARNA
-     *hole*       oranye         kata kerja / Modalverb
+     *hole* *kann*  oranye         kata kerja (hole) · Modalverb (kann)
      [ab]         kotak oranye   awalan trennbar (terlihat "lepas")
      *[ab]holen*  kata kerja utuh dengan awalan yang masih menempel
      {dich}       biru           pronomen Akkusativ

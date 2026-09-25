@@ -92,7 +92,7 @@ Bisa dipakai di semua teks (materi, soal, penjelasan):
 
 | Tulis di file data | Tampil sebagai | Untuk |
 |---|---|---|
-| `*hole*` | oranye | kata kerja / Modalverb |
+| `*hole*`, `*kann*` | oranye | kata kerja (hole) dan Modalverb (kann) |
 | `[ab]` | kotak oranye | awalan trennbar yang "lepas" |
 | `*[ab]holen*` | kata kerja oranye, awalan berkotak | kata kerja utuh (awalan masih menempel) |
 | `*hatte**st***` | kata kerja oranye, akhiran bergaris bawah | menunjukkan akhiran (hatte + st) |
