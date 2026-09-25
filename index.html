@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Deutsch A1 · Teil 2 — Grammar</title>
+  <meta name="description" content="Belajar grammar Bahasa Jerman A1: Ordinalzahlen, Präteritum haben & sein, Personalpronomen Akkusativ, Trennbare Verben.">
+  <meta name="theme-color" content="#f5f4f0">
+
+  <!-- Font (butuh internet; kalau offline otomatis pakai font bawaan perangkat).
+       media="print" + onload: font dimuat di belakang, halaman tidak perlu menunggu. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/presentation.css">
+</head>
+<body data-mode="belajar">
+
+  <!-- Kotak peringatan kalau ada file data yang salah ketik (diisi oleh js/main.js) -->
+  <div id="peringatan-data" class="peringatan-data" hidden></div>
+
+  <!-- ============================================================
+       MODE BELAJAR — untuk murid (HP / laptop)
+       ============================================================ -->
+  <div id="mode-belajar" class="mode-belajar">
+    <header class="kepala">
+      <a class="merek" href="#/belajar">
+        <span class="merek-logo" aria-hidden="true">A1</span>
+        <span class="merek-teks">Deutsch A1 <span class="merek-teil">Teil 2</span></span>
+      </a>
+      <div class="slot-toggle"></div>
+    </header>
+
+    <nav class="nav-topik" aria-label="Pilih topik">
+      <div class="nav-topik-isi" id="nav-topik"></div>
+    </nav>
+
+    <main id="isi-belajar" class="isi-belajar"></main>
+
+    <footer class="kaki">
+      Deutsch A1 · Teil 2 — latihan grammar untuk murid Indonesia.
+      <span class="kaki-catatan">Skor tidak disimpan: kalau halaman dimuat ulang, latihan mulai dari awal.</span>
+    </footer>
+  </div>
+
+  <!-- ============================================================
+       MODE PRESENTASI — untuk guru (share screen)
+       ============================================================ -->
+  <div id="mode-presentasi" class="mode-presentasi" hidden>
+    <header class="pres-bar">
+      <div class="pres-topik" id="pres-topik" aria-label="Topik presentasi"></div>
+      <div class="pres-bar-kanan">
+        <button class="pres-hitung" type="button" id="pres-hitung" title="Daftar slide (tombol O)" aria-live="polite"></button>
+        <button class="pres-ikon-btn" type="button" id="pres-bantuan-btn" title="Semua tombol keyboard (tombol ?)">
+          <span aria-hidden="true">?</span><span class="sr">Bantuan tombol keyboard</span>
+        </button>
+        <button class="pres-ikon-btn" type="button" id="pres-layar-penuh" title="Layar penuh (tombol F)">
+          <svg class="ikon-penuh" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>
+          <svg class="ikon-keluar-penuh" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/></svg>
+          <span class="sr">Layar penuh</span>
+        </button>
+        <div class="slot-toggle"></div>
+      </div>
+    </header>
+
+    <div class="pres-panggung" id="pres-panggung">
+      <div class="pres-slide" id="pres-slide"></div>
+    </div>
+
+    <footer class="pres-kaki">
+      <button class="pres-nav-btn" type="button" id="pres-mundur" aria-label="Slide sebelumnya">
+        <span aria-hidden="true">◀</span><span class="pres-nav-lbl">Kembali</span>
+      </button>
+      <div class="pres-kaki-tengah">
+        <div class="pres-progres" aria-hidden="true"><i id="pres-progres-isi"></i></div>
+        <p class="pres-bantuan">← → pindah · klik tabel/kalimat · O daftar slide · B tutup layar · F layar penuh · ? semua tombol</p>
+      </div>
+      <button class="pres-nav-btn utama" type="button" id="pres-maju" aria-label="Berikutnya">
+        <span class="pres-nav-lbl" id="pres-maju-lbl">Berikutnya</span><span aria-hidden="true">▶</span>
+      </button>
+    </footer>
+
+    <!-- Lapisan di atas slide: daftar slide / bantuan tombol -->
+    <div class="pres-lapisan" id="pres-lapisan" hidden></div>
+    <!-- Tutup layar (tombol B) -->
+    <div class="pres-tirai" id="pres-tirai" hidden>
+      <p>Layar ditutup sementara · tekan <b>B</b> atau klik untuk membuka</p>
+    </div>
+    <div class="pres-toast" id="pres-toast" aria-live="polite"></div>
+  </div>
+
+  <noscript>
+    <p class="noscript">Website ini membutuhkan JavaScript. Aktifkan JavaScript di browser Anda.</p>
+  </noscript>
+
+  <!-- Mencatat salah ketik di file data, supaya bisa ditampilkan di layar -->
+  <script>
+    window.GALAT_DATA = [];
+    window.addEventListener("error", function (e) {
+      if (e.filename && e.filename.indexOf("/js/data/") !== -1) {
+        window.GALAT_DATA.push({ file: e.filename, baris: e.lineno, pesan: e.message });
+      }
+    });
+  </script>
+
+  <!-- Data materi & soal (boleh Anda edit sendiri — lihat README.md) -->
+  <script src="js/data/ordinalzahlen.js"></script>
+  <script src="js/data/praeteritum.js"></script>
+  <script src="js/data/pronomen.js"></script>
+  <script src="js/data/trennbare.js"></script>
+  <script src="js/data/gabungan.js"></script>
+
+  <!-- Program (tidak perlu diubah) -->
+  <script src="js/main.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/presentation.js"></script>
+</body>
+</html>

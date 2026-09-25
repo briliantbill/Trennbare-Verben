@@ -1,0 +1,10 @@
+# Pengaturan lokal (tidak perlu ikut ke GitHub)
+.claude/
+
+# Kerangka versi lama — tidak dipakai website
+_arsip-kerangka-lama/
+
+# File sistem Windows / macOS
+Thumbs.db
+desktop.ini
+.DS_Store
